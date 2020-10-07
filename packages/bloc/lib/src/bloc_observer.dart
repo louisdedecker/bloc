@@ -34,5 +34,5 @@ class BlocObserver {
   /// an error without a [stackTrace].
   @protected
   @mustCallSuper
-  void onError(Cubit cubit, Object error, StackTrace? stackTrace) {}
+  void onError(Cubit cubit, Object error, StackTrace stackTrace) {}
 }
